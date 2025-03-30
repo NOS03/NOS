@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روابط حساباتي</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> <!-- إضافة أيقونات FontAwesome -->
+    <style>
+        body {
+            background: linear-gradient(to right, #FF7F50, #FF6347, #FFD700, #32CD32, #87CEEB, #8A2BE2, #FF1493); /* تدرج لوني متعدد مريح */
+            background-size: 500% 500%; /* تكبير حجم الخلفية بشكل أكبر */
+            animation: gradientAnimation 25s ease infinite; /* تأخير الأنيميشن ليكون أكثر سلاسة */
+            text-align: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 60px; /* زيادة حجم النص */
+            font-weight: bold;
+        }
+
+        .info {
+            font-size: 24px; /* زيادة حجم خط المعلومات */
+            margin-top: 20px;
+        }
+
+        .button {
+            display: block;
+            width: 250px;
+            background-color: black;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            border-radius: 10px;
+            text-decoration: none;
+            margin: 10px;
+            transition: 0.3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button:hover {
+            background-color: #333;
+        }
+
+        .button i {
+            margin-right: 10px;
+        }
+
+        /* التأثير المتدرج */
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            25% {
+                background-position: 25% 50%;
+            }
+            50% {
+                background-position: 50% 50%;
+            }
+            75% {
+                background-position: 75% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>NOS</h1>
+
+    <div class="info">
+        <p>الجامعة: جامعة التراث</p>
+        <p>الكلية: كلية العلوم</p>
+        <p>القسم: قسم علوم الحاسوب</p>
+        <p>المرحلة: المرحلة الأولى</p>
+    </div>
+
+    <a class="button" href="https://www.tiktok.com/@nos4t" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i>TikTok</a>
+
+</body>
+</html>
